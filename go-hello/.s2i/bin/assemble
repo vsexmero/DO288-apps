@@ -17,6 +17,6 @@ echo "---> Installing application source..."
 cp -Rf /tmp/src/. /opt/app-root/
 
 echo "Fecha de creacion: " >> ./info.html
-echo $(date +"%Y-%m-%d) >> ./info.html
+echo $(date +%Y-%m-%d) >> ./info.html
 echo "---> Building application from source..."
 go build app.go
