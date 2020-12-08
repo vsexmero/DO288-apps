@@ -19,7 +19,7 @@ echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 echo "Mi mensaje de la hora!" >> ./info.html
-echo $(date + %Y-%m-%d) >> ./info.html
+echo $(date +%Y-%m-%d) >> ./info.html
 
 ####### CUSTOMIZATION ENDS HERE ############
 
